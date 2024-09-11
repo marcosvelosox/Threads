@@ -11,7 +11,7 @@ public class Cavaleiro {
 
     public Cavaleiro(String nome) {
         this.nome = nome;
-        // Velocidade inicial entre 2 e 4 metros por 50 ms
+       
         this.velocidade = new Random().nextInt(3) + 2;
     }
 
